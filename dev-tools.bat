@@ -104,6 +104,7 @@ set choco_install=choco install -fy
 %choco_install% dbeaver
 %choco_install% meld
 %choco_install% zeal
+%choco_install% terminus
 %choco_install% docker-desktop
  
 : run "elevate -k choco install -y <package>" from non-admin cmd to install more packages
