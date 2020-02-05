@@ -44,7 +44,7 @@ GoogleChrome 79.0.3945.117 [Approved] Downloads cached for licensed users
 그리고, 간혹 특정 버전의 패키지를 설치 해야 할 경우가 있습니다. 그럴 경우 버전을 확인하기 위해서는 `-a`, `--all` 옵션을 넣어 주면 버전 정보를 확인 할 수 있습니다.
 
 # 패키지 상세 정보 보기
-`info` 명령어을 사요하거나 search에서 `-v`옵션을 추가해 주면 됩니다.
+`info` 명령어을 사용하거나 search에서 `-v`옵션을 추가해 주면 됩니다.
 
 그런데 `info` 명령어 search에서 -e 옵션이 붙은 것처럼 동작을 하게 됩니다.
 
