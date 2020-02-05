@@ -4,12 +4,12 @@
 # Chocolatey 설치
 chocolate를 설치 하려면 관리자 권한 cmd나 PowerShell을 실행해서 설치를 해 줘야 합니다.
 
-cmd 사용시
+## cmd 사용시
 ```batch
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 ```
 
-powershell 사용시
+## powershell 사용시
 ```batch
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')).DownloadString('https://chocolatey.org/install.ps1')))
 ```
