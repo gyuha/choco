@@ -106,6 +106,7 @@ set choco_install=choco install -fy
 %choco_install% zeal
 %choco_install% terminus
 %choco_install% docker-desktop
+%choco_install% PngGauntlet
  
 : run "elevate -k choco install -y <package>" from non-admin cmd to install more packages
 %choco_install% ^
